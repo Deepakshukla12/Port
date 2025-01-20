@@ -87,28 +87,19 @@ nav ul li a:hover::after {
 }
 
 .images {
-    width: 45%;
-    height: 80%;
-    position: absolute;
+    width: 40%;
+    height: 60%;
+    position:absolute;
     bottom: 0;
+    bottom: 100px;
     right: 100px;
 }
-
-.images img {
-    height: 70%;
-    position: absolute;
-    left: 50%;
-    bottom: 15%;
-    transform: translateX(-50%);
-    transition: bottom 1s, left 1s;
+.images {
+    transition: transform 0.5s ease; 
 }
 
-.images:hover .shape {
-    bottom: 40px;
-}
-
-.images:hover .boy {
-    left: 55%;
+.images:hover {
+    transform: scale(1.1); 
 }
 
 /*------------about---------------------*/
@@ -299,7 +290,7 @@ nav ul li a:hover::after {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    background: #3e3e3e;
     font-weight: 300;
     margin-top: 20px;
 }
