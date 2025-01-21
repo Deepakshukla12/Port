@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepak Shukla- Web Developer, Programmer, ML Enthusia</title>
+    <title>Personal PortFolio</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/65622ee2c1.js" crossorigin="anonymous"></script>
 </head>
@@ -12,25 +12,33 @@
 <body>
     <div id="header">
         <nav>
-            <img src="images new/Portfolio-removebg-preview-removebg-preview.png" class="logo" height=width="200">
+            <img src="images new/Portfolio-removebg-preview-removebg-preview.png" class="logo">
             <ul id="sidemenu">
                 <li><a href="#header"><b>Home</b></a></li>
                 <li><a href="#about"><b>About</b></a></li>
                 <li><a href="#services"><b>Projects</b></a></li>
                 <li><a href="#contact"><b>Contact</b></a></li>
-                <i class="fas fa-times" onclick="closemenu()"></i>
+               
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
-        <div class="detail">
-            <h1>Hi, I'm Deepak <span>Shukla</span></h1>
-            <h2>Engineering Student </h2>
-
+        <div class="detail-container">
+            <div class="detail">
+                <h1>Hi,&ensp;👋&ensp;I'm Deepak <span>Shukla</span></h1>
+            </div>
+        
+            <div class="images">
+                <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+                <dotlottie-player
+                    src="https://lottie.host/7d535ba2-2dd5-4a42-838f-7d8a514c2c4a/HwmMD70ggt.lottie"
+                    background="transparent"
+                    speed="1"
+                    loop
+                    autoplay>
+                </dotlottie-player>
+            </div>
         </div>
-        <div class="images">
-            <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-    <dotlottie-player src="https://lottie.host/7d535ba2-2dd5-4a42-838f-7d8a514c2c4a/HwmMD70ggt.lottie" background="transparent" speed="1"  loop autoplay></dotlottie-player>
-        </div>
+        
     </div>
     <!------------about--------------------->
     <div id="about">
@@ -240,8 +248,9 @@
             sidemenu.style.right = "-200px"
         }
 
+        
+
     </script>
 
 </body>
-
 </html>
